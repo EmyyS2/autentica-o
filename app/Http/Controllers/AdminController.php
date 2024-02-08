@@ -62,7 +62,7 @@ class AdminController extends Controller
     }
 
     public function verificaUsuarioLogado(Request $request)
-    { return 'logado';
+    { return Auth::user();
 
     }
 }
